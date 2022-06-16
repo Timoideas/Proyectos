@@ -1,0 +1,25 @@
+/* Phone RD */
+.Container {
+	display: flex;
+}
+
+/* Tablet RD */
+@media (min-width: 576px) {
+	.Container {
+		background: var(--c01)
+;	}
+}
+
+/* Laptop RD */
+@media (min-width: 768px) {
+	.Container {
+		background: var(--c01)
+;	}
+}
+
+/* Desktop RD */
+@media (min-width: 1200px) 
+{	.Container {
+		background: var(--c01)
+;	}
+}
